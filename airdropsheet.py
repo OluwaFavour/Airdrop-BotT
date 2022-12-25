@@ -8,7 +8,7 @@ creds = None
 creds = service_account.Credentials.from_service_account_file(SERVICE_ACCOUNT_FILE, scopes=SCOPES)
 
 # Spreadsheet ID
-sheet_id = '1_CsjA3CKbZDyokOUPMRaEl2c6kqs9iYULAQgAjnB1rU'
+sheet_id = 'GOOGLE_API_TOKEN'
 
 try:
   service = build('sheets', 'v4', credentials=creds)
